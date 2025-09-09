@@ -3,7 +3,6 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   logo: <span>Mefisto Game Box</span>,
-  titleSuffix: ' - Free HTML5 Games Online',
   // project: {
   //   link: 'https://github.com/shuding/nextra-docs-template',
   // },
