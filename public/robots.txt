@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Block access to specific directories that don't need indexing
+Disallow: /game/
+Disallow: /absolute/
+Disallow: /.vscode/
+Disallow: /.trae/
+
+# Block access to specific file types
+Disallow: /*.js.map$
+Disallow: /*.css.map$
+
+# Allow certain bots to access all content
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Link to our sitemap
+Sitemap: https://www.gamebox.com/sitemap.xml

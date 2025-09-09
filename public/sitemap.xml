@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 主页 -->
+  <url>
+    <loc>https://www.mefistogamebox.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Viking Clash 游戏页面 -->
+  <url>
+    <loc>https://www.mefistogamebox.com/vikingClash</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- no one need die 游戏页面 -->
+  <url>
+    <loc>https://www.mefistogamebox.com/nooneneeddie</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 关于我们页面 -->
+  <url>
+    <loc>https://www.mefistogamebox.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- 高级设置页面 -->
+  <url>
+    <loc>https://www.mefistogamebox.com/advanced</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

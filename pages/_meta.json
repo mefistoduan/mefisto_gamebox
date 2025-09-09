@@ -1,9 +1,23 @@
 {
-  "index": "Introduction",
-  "vikingClash": "Viking Clash",
-  "nooneneeddie": "no one need die",
+  "": {
+    "title": "Mefisto Game Box",
+    "type": "page",
+    "description": "Free online HTML5 games - play instantly without downloads or registrations"
+  },
+  "vikingClash": {
+    "title": "Viking Clash - Card Battle Game",
+    "description": "Epic Viking-themed card battle game. Collect action points, drag powerful cards, and summon fearless warriors!"
+  },
+  "nooneneeddie": {
+    "title": "no one need die - Jumping Adventure",
+    "description": "Fun multiplayer jumping game. Control multiple characters through obstacle-filled courses and aim for high scores!"
+  },
   "about": {
-    "title": "About",
-    "type": "page"
+    "title": "About Us",
+    "description": "Learn more about Mefisto Game Box"
+  },
+  "advanced": {
+    "title": "Advanced Settings",
+    "description": "Advanced features and settings for Mefisto Game Box"
   }
 }

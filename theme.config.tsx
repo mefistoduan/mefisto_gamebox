@@ -2,7 +2,8 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>Mefisto game box</span>,
+  logo: <span>Mefisto Game Box</span>,
+  titleSuffix: ' - Free HTML5 Games Online',
   // project: {
   //   link: 'https://github.com/shuding/nextra-docs-template',
   // },
@@ -11,7 +12,7 @@ const config: DocsThemeConfig = {
   // },
   // docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'mefisto game box',
+    text: 'Mefisto Game Box - Free HTML5 Games',
   },
 }
 
