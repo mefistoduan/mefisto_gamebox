@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- 主页 -->
   <url>
-    <loc>https://www.mefistogamebox.com/</loc>
+    <loc>https://gamebox.qzz.io/</loc>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  <!-- Viking Clash 游戏页面 -->
   <url>
-    <loc>https://www.mefistogamebox.com/vikingClash</loc>
+    <loc>https://gamebox.qzz.io/vikingClash</loc>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- no one need die 游戏页面 -->
   <url>
-    <loc>https://www.mefistogamebox.com/nooneneeddie</loc>
+    <loc>https://gamebox.qzz.io/nooneneeddie</loc>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- 关于我们页面 -->
   <url>
-    <loc>https://www.mefistogamebox.com/about</loc>
+    <loc>https://gamebox.qzz.io/about</loc>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-  
-  <!-- 高级设置页面 -->
   <url>
-    <loc>https://www.mefistogamebox.com/advanced</loc>
+    <loc>https://gamebox.qzz.io/advanced</loc>
+    <lastmod>2024-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -1,3 +1,25 @@
 {
-    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+    "alias": "gamebox.qzz.io",
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "https://gamebox.qzz.io/",
+            "permanent": true
+        }
+    ],
+    "headers": [
+        {
+            "source": "(.*)",
+            "headers": [
+                {
+                    "key": "X-Robots-Tag",
+                    "value": "index, follow"
+                },
+                {
+                    "key": "Content-Security-Policy",
+                    "value": "frame-ancestors https://gamebox.qzz.io"
+                }
+            ]
+        }
+    ]
 }

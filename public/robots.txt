@@ -1,22 +1,23 @@
 User-agent: *
-Allow: /
-
-# Block access to specific directories that don't need indexing
 Disallow: /game/
-Disallow: /absolute/
-Disallow: /.vscode/
-Disallow: /.trae/
+Disallow: /.next/
+Disallow: /vercel.json
+Disallow: /*.js.map
+Disallow: /*.css.map
 
-# Block access to specific file types
-Disallow: /*.js.map$
-Disallow: /*.css.map$
-
-# Allow certain bots to access all content
-User-agent: Googlebot
+# 允许访问主要内容
 Allow: /
+Allow: /vikingClash
+Allow: /nooneneeddie
+Allow: /about
+Allow: /advanced
+
+# 特别允许主要搜索引擎
+User-agent: Googlebot
+Disallow:
 
 User-agent: Bingbot
-Allow: /
+Disallow:
 
-# Link to our sitemap
-Sitemap: https://www.gamebox.com/sitemap.xml
+# 引用sitemap
+Sitemap: https://gamebox.qzz.io/sitemap.xml
