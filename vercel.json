@@ -1,25 +1,15 @@
 {
-    "alias": "gamebox.qzz.io",
-    "redirects": [
-        {
-            "source": "/",
-            "destination": "https://gamebox.qzz.io/",
-            "permanent": true
-        }
-    ],
-    "headers": [
-        {
-            "source": "(.*)",
-            "headers": [
-                {
-                    "key": "X-Robots-Tag",
-                    "value": "index, follow"
-                },
-                {
-                    "key": "Content-Security-Policy",
-                    "value": "frame-ancestors https://gamebox.qzz.io"
-                }
-            ]
-        }
-    ]
+  "version": 2,
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "$1"
+    }
+  ]
 }
