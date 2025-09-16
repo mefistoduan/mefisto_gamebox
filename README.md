@@ -21,3 +21,5 @@ Then, run `pnpm dev` to start the development server and visit localhost:3000.
 ## License
 
 This project is licensed under the MIT License.
+==
+将这个游戏翻译成英语的，并在 文件夹pages里增加一个介绍这个游戏的mdx文件，格式参照其他mdx
