@@ -2,95 +2,95 @@ var _STRINGS = {
         Ad: {
             Mobile: {
                 Preroll: {
-                    ReadyIn: "战争准备就绪",
-                    Loading: "您的战争正在加载...",
-                    Close: "关闭"
+                    ReadyIn: "war is ready",
+                    Loading: "is loading...",
+                    Close: "close"
                 },
                 Header: {
-                    ReadyIn: "战争准备就绪",
-                    Loading: "您的战争正在加载...",
-                    Close: "关闭"
+                    ReadyIn: "war is ready",
+                    Loading: "is loading...",
+                    Close: "close"
                 },
                 End: {
                     ReadyIn: "广告结束于",
                     Loading: "请稍候...",
-                    Close: "关闭"
+                    Close: "close"
                 }
             }
         },
-        Splash: {
-            Loading: "正在加载...",
-            LogoLine1: "这里有一些文字",
-            LogoLine2: "由MarketJS提供支持（小星汉化）",
-            LogoLine3: "没有人"
+      Splash: {
+            Loading: "Loading...",
+            LogoLine1: "Some text here",
+            LogoLine2: "Powered by MarketJS",
+            LogoLine3: "No One"
         },
         Game: {
-            SelectPlayer: "选择播放器",
-            Win: "恭喜，你赢了！",
-            Lose: "抱歉，你输了！",
-            Score: "分数",
-            Time: "剩余时间",
-            Home: "返回主页",
-            Battle: "开始战斗",
-            CardCollection: "全部卡片",
-            ReplaceCard: "选择要替换的卡",
-            Use: "使用",
-            Info: "信息",
+            SelectPlayer: "Select Player",
+            Win: "Congratulations, you won!",
+            Lose: "Sorry, you lost!",
+            Score: "Score",
+            Time: "Time Remaining",
+            Home: "Return to Home",
+            Battle: "Start Battle",
+            CardCollection: "All Cards",
+            ReplaceCard: "Select card to replace",
+            Use: "Use",
+            Info: "Info",
             Sixty: "60",
             Thirty: "30",
-            TimeMinutes: "秒",
-            LeftMinutes: "分钟",
-            DoubleElixer: "X2 长生不老药",
+            TimeMinutes: "sec",
+            LeftMinutes: "min",
+            DoubleElixer: "X2 Elixir",
             AdditionalSixty: "+60",
-            Extra: "额外的",
-            Sudden: "猝死",
-            TropiExtra: "- 赢得下一个奖杯 -",
-            Tutorial: "辅导的",
-            StartTutorial: "你想先学习教程吗?",
-            Yes: "开始学习",
-            No: "我是高手",
-            Pause: "暂停",
-            GamePause: "游戏暂停",
-            Resume: "继续游戏",
-            Health: "生命值",
-            Duration: "持续时间",
-            Movement: "移动速度",
-            Type: "属性 :",
-            Spell: "咒语",
-            Troop: "部队",
-            Damage: "攻击",
-            Fast: "快",
-            Normal: "一般",
-            Slow: "缓慢",
-            DamagePerSecond: "每秒攻击数",
-            StunDuration: "技能持续时间"
+            Extra: "Extra",
+            Sudden: "Sudden",
+            TropiExtra: "- Win the next trophy -",
+            Tutorial: "Tutorial",
+            StartTutorial: "Would you like to learn the tutorial first?",
+            Yes: "Start Learning",
+            No: "I'm an Expert",
+            Pause: "Pause",
+            GamePause: "Game Paused",
+            Resume: "Resume Game",
+            Health: "Health",
+            Duration: "Duration",
+            Movement: "Movement Speed",
+            Type: "Type:",
+            Spell: "Spell",
+            Troop: "Troop",
+            Damage: "Attack",
+            Fast: "Fast",
+            Normal: "Normal",
+            Slow: "Slow",
+            DamagePerSecond: "Attacks per Second",
+            StunDuration: "Ability Duration"
         },
         AIName: {
-            One: "小精灵",
-            Two: "塔科",
-            Three: "滑溜冰",
-            Four: "孢子虫",
-            Five: "突厥语",
-            Six: "循环效率",
-            Seven: "芹菜属",
-            Eight: "斯基普霍特",
-            Nine: "临时工",
-            Ten: "99乳白色"
+            One: "Sprite",
+            Two: "Taco",
+            Three: "Skater",
+            Four: "Spore",
+            Five: "Turk",
+            Six: "Cycle",
+            Seven: "Celery",
+            Eight: "Skip",
+            Nine: "Temp",
+            Ten: "99 Milk"
         },
         Tutorial: {
-            Welcome: "欢迎回家，我们开始训练吧",
-            Destroy: "我们的目标是摧毁敌方发射塔",
-            Ready: "现在让我们开始战斗吧！祝你好运",
-            Deploy: "拖放卡片部署您的部队"
+            Welcome: "Welcome back, let's start training",
+            Destroy: "Our goal is to destroy the enemy towers",
+            Ready: "Now let's start the battle! Good luck",
+            Deploy: "Drag and drop cards to deploy your troops"
         },
         Results: {
-            Title: "高分"
+            Title: "High Score"
         }
     },
     _GAME = {
         Card: {
             archer: {
-                name: "疯狂射手",
+                name: "Mad Archer",
                 manaUsage: 3,
                 indexCardNumber: 1,
                 rangeShot: 70,
@@ -99,19 +99,19 @@ var _STRINGS = {
                 HP: 360,
                 ATK: 45,
                 spellcard: !1,
-                description: "弓箭手是远程攻击者，他用锋利的箭攻击敌人"
+                description: "The archer is a ranged attacker who strikes enemies with sharp arrows"
             },
             ars: {
-                name: "万雨箭",
+                name: "Arrow Shower",
                 manaUsage: 3,
                 indexCardNumber: 2,
                 range: !0,
                 spellcard: !0,
                 damage: 300,
-                description: "这些箭会挡住太阳，对敌人造成飞溅伤害"
+                description: "These arrows will block the sun and deal splash damage to enemies"
             },
             warrior: {
-                name: "愤怒特工",
+                name: "Angry Warrior",
                 manaUsage: 4,
                 indexCardNumber: 3,
                 range: !1,
@@ -121,19 +121,19 @@ var _STRINGS = {
                 HP: 850,
                 ATK: 95,
                 spellcard: !1,
-                description: "啊，雇佣兵，他用锋利的剑把敌人一分为二"
+                description: "Ah, the mercenary who splits enemies in two with his sharp sword"
             },
             berserk: {
-                name: "战斗阴霾",
+                name: "Battle Frenzy",
                 manaUsage: 3,
                 indexCardNumber: 4,
                 timeDuration: 4,
                 range: !0,
                 spellcard: !0,
-                description: "把部队投入疯狂状态，使他们攻击得更快"
+                description: "Throws troops into a mad state, making them attack faster"
             },
             giant: {
-                name: "保卫者",
+                name: "Defender",
                 manaUsage: 5,
                 indexCardNumber: 5,
                 range: !1,
@@ -143,10 +143,10 @@ var _STRINGS = {
                 HP: 2100,
                 ATK: 75,
                 spellcard: !1,
-                description: "巨大的海盗，只攻击塔"
+                description: "A giant pirate who attacks only towers"
             },
             bomb: {
-                name: "小矮人",
+                name: "Dwarf",
                 manaUsage: 3,
                 indexCardNumber: 6,
                 range: !0,
@@ -156,28 +156,28 @@ var _STRINGS = {
                 HP: 300,
                 ATK: 50,
                 spellcard: !1,
-                description: "侏儒向敌军投掷炸弹，造成飞溅伤害"
+                description: "Dwarfs throw bombs at enemy troops, dealing splash damage"
             },
             fireball: {
-                name: "火球",
+                name: "Fireball",
                 manaUsage: 4,
                 indexCardNumber: 7,
                 range: !0,
                 spellcard: !0,
                 damage: 500,
-                description: "一团炽热的火球飞溅在燃烧着敌人的田野上"
+                description: "A blazing fireball that splashes across the field burning enemies"
             },
             freezer: {
-                name: "寒冰花",
+                name: "Ice Flower",
                 manaUsage: 4,
                 indexCardNumber: 8,
                 timeDuration: 3,
                 range: !0,
                 spellcard: !0,
-                description: "一股冷风，冰冷的空气使塔和单元结冰"
+                description: "A cold wind that freezes towers and units"
             },
             axeman: {
-                name: "狂暴者",
+                name: "Berserker",
                 manaUsage: 2,
                 indexCardNumber: 9,
                 range: !1,
@@ -187,10 +187,10 @@ var _STRINGS = {
                 HP: 420,
                 ATK: 65,
                 spellcard: !1,
-                description: "体积小，但非常灵活和快速，他们疯狂地战斗"
+                description: "Small in size but very agile and fast, they fight like mad"
             },
             axethrow: {
-                name: "收割者",
+                name: "Reaper",
                 manaUsage: 3,
                 indexCardNumber: 10,
                 range: !0,
@@ -200,10 +200,10 @@ var _STRINGS = {
                 HP: 300,
                 ATK: 65,
                 spellcard: !1,
-                description: "以他在战场上的暴怒而闻名，杀手向他们的敌人投掷斧头"
+                description: "Famous for his rage on the battlefield, the killer throws axes at his enemies"
             },
             hammer: {
-                name: "疯狂锤子",
+                name: "Mad Hammer",
                 manaUsage: 4,
                 indexCardNumber: 11,
                 range: !1,
@@ -213,20 +213,20 @@ var _STRINGS = {
                 HP: 1050,
                 ATK: 35,
                 spellcard: !1,
-                description: "一个拿着锤子的英雄，有着伟大的行动和攻击力"
+                description: "A hero with a hammer, great movement and attack power"
             },
             lightning: {
-                name: "闪电光",
+                name: "Lightning Bolt",
                 manaUsage: 2,
                 indexCardNumber: 12,
                 range: !0,
                 spellcard: !0,
                 stunTime: 0.4,
                 damage: 200,
-                description: "一道闪电击中了敌人并使其晕眩"
+                description: "A lightning bolt strikes enemies and stuns them"
             },
             mage: {
-                name: "巫师",
+                name: "Wizard",
                 manaUsage: 4,
                 indexCardNumber: 13,
                 range: !0,
@@ -236,17 +236,17 @@ var _STRINGS = {
                 HP: 420,
                 ATK: 75,
                 spellcard: !1,
-                description: "赛瑟尔的一位修行者利用自然之火击败了她的敌人"
+                description: "A practitioner of Cesser who uses natural fire to defeat her enemies"
             },
             tombcrush: {
-                name: "雷神之锤",
+                name: "Thunder Hammer",
                 manaUsage: 4,
                 indexCardNumber: 0,
                 timeDuration: 3,
                 DPS: 10,
                 range: !0,
                 spellcard: !1,
-                description: "一种来自天堂的锤子，可以猛击敌人，破坏部队并使他们减速"
+                description: "A hammer from heaven that smashes enemies, destroying troops and slowing them down"
             }
         }
     },

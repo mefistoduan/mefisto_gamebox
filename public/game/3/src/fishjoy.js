@@ -57,7 +57,7 @@ game.load = function(container)
 	this.screenHeight = window.innerHeight;
 	
 	//load info
-	var div = Q.createDOM("div", {innerHTML: "正在加载资源中，请稍候...<br>", style:
+	var div = Q.createDOM("div", {innerHTML: "loading...<br>", style:
 	{
 		id: "loader",
 		position: "absolute",
@@ -92,7 +92,7 @@ game.load = function(container)
 
 game.onLoadLoaded = function(e)
 {
-	var content = "正在加载资源中，请稍候...<br>(" + Math.round(e.target.getLoadedSize()/e.target.getTotalSize()*100) + "%)";
+	var content = "loading...<br>(" + Math.round(e.target.getLoadedSize()/e.target.getTotalSize()*100) + "%)";
 	this.loader.innerHTML = content;
 };
 
