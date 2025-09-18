@@ -11,6 +11,8 @@ Allow: /vikingClash
 Allow: /nooneneeddie
 Allow: /about
 Allow: /advanced
+Allow: /cubePuzzle
+Allow: /mrFisher
 
 # 特别允许主要搜索引擎
 User-agent: Googlebot
