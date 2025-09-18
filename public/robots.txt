@@ -19,5 +19,5 @@ Disallow:
 User-agent: Bingbot
 Disallow:
 
-# 引用sitemap
+# 声明sitemap位置
 Sitemap: https://gamebox.qzz.io/sitemap.xml

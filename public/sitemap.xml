@@ -30,4 +30,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  <!-- 添加缺失的页面 -->
+  <url>
+    <loc>https://gamebox.qzz.io/cubePuzzle</loc>
+    <lastmod>2024-04-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gamebox.qzz.io/mrFisher</loc>
+    <lastmod>2024-04-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
